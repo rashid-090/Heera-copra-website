@@ -6,16 +6,16 @@ import { MdOutlineVerified } from "react-icons/md";
 const Home = () => {
   return (
     <>
-    <section className='bg-mainclr text-white h-screen xl:h-[90vh] mt-16 md:mt-28 overflow-hidden'>
-        <div className='w-11/12 xl:w-10/12 mx-auto pb-10 h-full grid grid-cols-1 md:grid-cols-2 xl:gap-5 gap-x-20'>
+    <section className='bg-mainclr text-white h-full xl:h-[90vh] mt-16 xl:mt-28 overflow-hidden'>
+        <div className='w-11/12 xl:w-10/12 mx-auto py-10 h-full grid grid-cols-1 md:grid-cols-2 gap-10 gap-x-20'>
            <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5'>
                 <h1 className='text-3xl xl:text-5xl font-medium'>Smart solutions for Business Visa from Dubai made simple</h1>
                 <p className='xl:pr-32 text-base xl:text-lg'>Leveraging a global network of expertise, we ensure effortless relocations worldwide for thousands of corporations by simplifying your Business visa from Dubai processes for employees both individually and as a team</p>
                 <button className='border hover:border-mainhvr text-white hover:bg-mainhvr  duration-150 w-fit hover:text-white px-5 md:px-10 py-2 md:py-3 font-medium'>Get in Touch</button>
            </div>
-           <div className='flex flex-col items-center justify-start md:justify-center h-full relative'>
+           <div className='flex flex-col items-center justify-start md:justify-center h-fit xl:h-full relative '>
           
-                <img loading='lazy' className='z-10 rounded-[3rem]  shadow-2xl h-full w-full xl:h-[450px] md:w-fit object-cover' src={bannerImg} alt="banner" />
+                <img loading='lazy' className='z-10 rounded-3xl xl:rounded-[3rem]  shadow-2xl h-[250px] w-full xl:h-[400px] md:w-fit object-cover' src={bannerImg} alt="banner" />
            </div>
         </div>
     </section>

@@ -13,7 +13,7 @@ const Home = lazy(() => import("./pages/Home"));
 
 const Layout = () => {
   return(
-    <div className="app">
+    <div className="app 2xl:max-w-[2500px] mx-auto">
       <Header/>
       <ScrollToTop />
       <Outlet />
