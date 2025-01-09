@@ -1,5 +1,5 @@
 import React from 'react';
-import {bannerImg} from '../assets';
+import {bannerImg,heeraAbt,heeraWhy,blobshape} from '../assets';
 import {Faq} from '../components'
 import { MdOutlineVerified } from "react-icons/md";
 
@@ -13,15 +13,16 @@ const Home = () => {
                 <p className='xl:pr-32 text-base xl:text-lg'>Leveraging a global network of expertise, we ensure effortless relocations worldwide for thousands of corporations by simplifying your Business visa from Dubai processes for employees both individually and as a team</p>
                 <button className='border hover:border-mainhvr text-white hover:bg-mainhvr  duration-150 w-fit hover:text-white px-5 md:px-10 py-2 md:py-3 font-medium'>Get in Touch</button>
            </div>
-           <div className='flex flex-col items-center justify-start md:justify-center h-full'>
-                <img className='h-full w-full xl:h-[450px] md:w-fit object-cover' src={bannerImg} alt="banner" />
+           <div className='flex flex-col items-center justify-start md:justify-center h-full relative'>
+          
+                <img loading='lazy' className='z-10 rounded-[3rem]  shadow-2xl h-full w-full xl:h-[450px] md:w-fit object-cover' src={bannerImg} alt="banner" />
            </div>
         </div>
     </section>
     <section className='bg-white text-black'>
         <div className='w-11/12 xl:w-10/12 mx-auto py-10 xl:py-20 grid grid-cols-1 md:grid-cols-2 gap-10'>
             <div>
-                <img src={bannerImg} alt="" />
+                <img className='object-cover h-full w-full' loading='lazy' src={heeraAbt} alt="" />
             </div>
             <div className='flex flex-col gap-3'>
                 <p className='text-mainhvr l tracking-widest'>ABOUT US</p>
@@ -85,7 +86,7 @@ const Home = () => {
 
             </div>
             <div>
-                <img className='h-full object-cover' src={bannerImg} alt="" />
+                <img loading='lazy' className='h-full object-cover' src={heeraWhy} alt="" />
             </div>
         </div>
     </section>
