@@ -20,9 +20,9 @@ const Header = () => {
         isScrolled ? 'bg-white shadow-lg border-white' : 'bg-mainclr  border-gray-700'
       }`}
     >
-      <div className="w-11/12 xl:w-10/12 mx-auto py-1 xl:py-3 flex items-center justify-between">
+      <div className="w-11/12 xl:w-10/12 mx-auto py-1 xl:py-2 flex items-center justify-between">
         <img
-          className="h-16 w-32 xl:h-24 xl:w-44 object-contain"
+          className="h-16 w-32 object-contain"
           src={isScrolled ? Logoblack : Logowhite}
           alt="Logo"
         />

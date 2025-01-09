@@ -6,7 +6,7 @@ import { MdOutlineVerified } from "react-icons/md";
 const Home = () => {
   return (
     <>
-    <section className='bg-mainclr text-white h-full xl:h-[90vh] mt-16 xl:mt-28 overflow-hidden'>
+    <section className='bg-mainclr text-white h-full xl:h-[90vh] mt-16 xl:mt-20 overflow-hidden'>
         <div className='w-11/12 xl:w-10/12 mx-auto py-10 h-full grid grid-cols-1 md:grid-cols-2 gap-10 gap-x-20'>
            <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5'>
                 <h1 className='text-3xl xl:text-5xl font-medium'>Smart solutions for Business Visa from Dubai made simple</h1>
