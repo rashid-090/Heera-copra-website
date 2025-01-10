@@ -2,6 +2,9 @@ import React from 'react';
 import {bannerImg,heeraAbt,heeraWhy,blobshape} from '../assets';
 import {Faq} from '../components'
 import { MdOutlineVerified } from "react-icons/md";
+import { VscDebugBreakpointLog } from "react-icons/vsc";
+
+
 
 const Home = () => {
   return (
@@ -53,34 +56,34 @@ const Home = () => {
         </div>
     </section>
     <section className='bg-white text-black'>
-        <div className='w-11/12 xl:w-10/12 mx-auto py-10 xl:py-20 grid grid-cols-1 md:grid-cols-2 gap-10 gap-x-20'>
+        <div className='w-11/12 xl:w-10/12 mx-auto py-10 xl:py-20 grid grid-cols-1 md:grid-cols-2 gap-10 gap-x-10'>
             <div className='flex flex-col gap-3'>
                 <p className='text-mainhvr  tracking-widest'>WHY CHOOSE US</p>
                 <h2 className='text-2xl xl:text-4xl font-medium'>Experience the Heera Corporate difference with stress-free Business visa from Dubai</h2>
                 <div className='flex flex-col gap-2'>
                     <div>
                         <p className='text-base xl:text-lg text-mainhvr font-medium'>Upfront pricing</p>
-                        <p className=' text-gray-600'>Flat rate transparency with no hidden charges.</p>
+                        <p className=' text-gray-600 flex items-center gap-2'><div><VscDebugBreakpointLog className='text-mainhvr'/></div> Flat rate transparency with no hidden charges.</p>
                     </div>
                     <div>
                         <p className='text-base xl:text-lg text-mainhvr font-medium'>User friendly portal</p>
-                        <p className=' text-gray-600'>Simple online account management of your Dubai Business visa applications</p>
+                        <p className=' text-gray-600 flex items-center gap-2'><div><VscDebugBreakpointLog className='text-mainhvr'/></div> Simple online account management of your Dubai Business visa applications</p>
                     </div>
                     <div>
                         <p className='text-base xl:text-lg text-mainhvr font-medium'>Personalized visa experts</p>
-                        <p className=' text-gray-600'>Dedicated end-to-end support with real-time status updates</p>
+                        <p className=' text-gray-600 flex items-center gap-2'><div><VscDebugBreakpointLog className='text-mainhvr'/></div> Dedicated end-to-end support with real-time status updates</p>
                     </div>
                     <div>
                         <p className='text-base xl:text-lg text-mainhvr font-medium'>Prompt processing</p>
-                        <p className=' text-gray-600'>Reliable delivery and easy Dubai Business visa processing time</p>
+                        <p className=' text-gray-600 flex items-center gap-2'><div><VscDebugBreakpointLog className='text-mainhvr'/></div> Reliable delivery and easy Dubai Business visa processing time</p>
                     </div>
                     <div>
                         <p className='text-base xl:text-lg text-mainhvr font-medium'>Proven visa expertise</p>
-                        <p className=' text-gray-600'>Navigating complex visa processes with ease</p>
+                        <p className=' text-gray-600 flex items-center gap-2'><div><VscDebugBreakpointLog className='text-mainhvr'/></div> Navigating complex visa processes with ease</p>
                     </div>
                     <div>
                         <p className='text-base xl:text-lg text-mainhvr font-medium'>Unified billing system</p>
-                        <p className=' text-gray-600'>Simplified and accessible payments from Business visa services in Dubai</p>
+                        <p className=' text-gray-600 flex items-center gap-2'><div><VscDebugBreakpointLog className='text-mainhvr'/></div> Simplified and accessible payments from Business visa services in Dubai</p>
                     </div>
                 </div>
 
