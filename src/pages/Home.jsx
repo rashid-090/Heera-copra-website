@@ -15,17 +15,15 @@ import billingsystem from '../assets/images/svg/Unified billing system.svg'
 const Home = () => {
   return (
     <>
-    <section className='bg-mainclr text-white h-full xl:h-[90vh] mt-16 xl:mt-20 overflow-hidden'>
-        <div className='w-11/12 xl:w-10/12 mx-auto py-10 h-full grid grid-cols-1 md:grid-cols-2 gap-10 gap-x-10'>
-           <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5'>
-                <h1 className='text-3xl xl:text-5xl font-medium capitalize'>Business Visa from Dubai made simple</h1>
+    <section className='bg-home-bg bg-cover text-white h-screen overflow-hidden'>
+        <div className='absolute bg-[#00000091] w-full h-full z-0'></div>
+        <div className='w-11/12 xl:w-10/12 mx-auto  h-full z-10 relative grid grid-cols-1 gap-10 gap-x-10'>
+           <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5 xl:pt-14 xl:w-[60%]'>
+                <h1 className='text-3xl xl:text-5xl font-medium capitalize'>Business Visa from<br/> Dubai made simple</h1>
                 <p className='xl:pr-32 text-base tracking-tight text-justify'>Leveraging a global network of expertise, we ensure effortless relocations worldwide for thousands of corporations by simplifying your Business visa from Dubai processes for employees both individually and as a team.</p>
                 <button className='border border-mainhvr text-white bg-mainhvr  duration-150 w-fit rounded-xl hover:text-white px-5 py-2 font-medium'>Get in Touch</button>
            </div>
-           <div className='flex flex-col items-center justify-start md:justify-center h-fit xl:h-full relative '>
-          
-                <img loading='lazy' className='z-10 rounded-3xl xl:rounded-[3rem]  shadow-2xl h-[200px] w-full xl:h-[350px] md:w-fit object-cover' src={bannerImg} alt="banner" />
-           </div>
+       
         </div>
     </section>
     <section className='bg-white text-black'>
@@ -39,20 +37,20 @@ const Home = () => {
                 <p className='text-gray-600 text-base text-justify'>At Heera Corporate, we know what it’s like to have a frequent travel team on board. Boasting an international network of companies, we ensure a flawless Dubai Business visa processing for businesses of all sizes to smoothly transition and relocate personal to their global branches.</p>
                 <p className='text-gray-600 text-base text-justify'>Our experts handle the complexities of requirements of your Business visa from Dubai, so that you can focus on what’s important in growing your business worldwide.</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-3'>
-                    <div className='flex gap-2 items-center'>
-                        <MdOutlineVerified className='text-3xl text-mainhvr'/>
+                    <div className='flex gap-2 items-start'>
+                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
                         <p>Assisted visa applications</p>
                     </div>
-                    <div className='flex gap-2 items-center'>
-                        <MdOutlineVerified className='text-3xl text-mainhvr'/>
+                    <div className='flex gap-2 items-start'>
+                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
                         <p>Personalized support</p>
                     </div>
-                    <div className='flex gap-2 items-center'>
-                        <MdOutlineVerified className='text-3xl text-mainhvr'/>
+                    <div className='flex gap-2 items-start'>
+                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
                         <p>Streamlined work permit processing</p>
                     </div>
-                    <div className='flex gap-2 items-center'>
-                        <MdOutlineVerified className='text-3xl text-mainhvr'/>
+                    <div className='flex gap-2 items-start'>
+                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
                         <p>Automated and timely approach</p>
                     </div>
                 </div>
@@ -154,7 +152,7 @@ const Home = () => {
                 </form>
             </div>
             <div className='basis-1/2  flex flex-col gap-3 justify-center'>
-                <h2 className='text-3xl xl:text-4xl font-medium capitalize'>get your consultation<br/> free now</h2>
+                <h2 className='text-3xl xl:text-4xl font-medium capitalize'>get your free<br/> consultation now</h2>
                 <p className='text-gray-600 text-base'>Fill out the form below, and our team will promptly<br/> get in touch with you.</p>
             </div>
         </div>

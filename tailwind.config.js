@@ -25,7 +25,7 @@ export default {
         // extrabold: ["poppins-extrabold", "sans-serif"],
       },
       backgroundImage: {
-        // "cta-bg": "url('./assets/images/visas/cta.webp')",
+        "home-bg": "url('./assets/images/heera-bg.webp')",
       },
     },
   },
