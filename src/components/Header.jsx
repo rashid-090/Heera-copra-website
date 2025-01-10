@@ -33,7 +33,7 @@ const Header = () => {
           <li>Blog</li>
           <li>Contact</li>
         </ul>
-        <button className={`${!isScrolled ? "hover:bg-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr" : "border-black hover:bg-mainhvr hover:border-mainhvr hover:text-white duration-150"} rounded-xl px-5 border text-sm xl:text-base py-2 font-medium`}>
+        <button className={`${!isScrolled ? "hover:bg-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr" : "border-black hover:bg-mainhvr hover:border-mainhvr hover:text-white duration-150"} rounded-xl px-5 border text-sm xl:text-base py-2 `}>
           <Link>Apply now</Link>
         </button>
       </div>

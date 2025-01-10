@@ -21,6 +21,7 @@ const FullScreenLoader = () => {
         <img
           src={LogoFav} // Replace with your logo path
           alt="Logo"
+          loading="lazy"
           className="absolute inset-0 w-8 h-8 xl:w-14 xl:h-14 object-contain m-auto"
         />
       </div>
