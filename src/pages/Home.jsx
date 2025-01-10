@@ -45,15 +45,15 @@ const Home = () => {
                     </div>
                     <div className='flex gap-2 items-center'>
                         <MdOutlineVerified className='text-3xl text-mainhvr'/>
+                        <p>Personalized support</p>
+                    </div>
+                    <div className='flex gap-2 items-center'>
+                        <MdOutlineVerified className='text-3xl text-mainhvr'/>
                         <p>Streamlined work permit processing</p>
                     </div>
                     <div className='flex gap-2 items-center'>
                         <MdOutlineVerified className='text-3xl text-mainhvr'/>
                         <p>Automated and timely approach</p>
-                    </div>
-                    <div className='flex gap-2 items-center'>
-                        <MdOutlineVerified className='text-3xl text-mainhvr'/>
-                        <p>Personalized support</p>
                     </div>
                 </div>
                 <button className='mt-5 border border-black hover:border-mainhvr text-black hover:bg-mainhvr  duration-150 w-fit hover:text-white px-5 rounded-xl py-2  font-medium'>Learn more</button>
