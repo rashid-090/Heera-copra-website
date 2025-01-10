@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" id="svg5346" width="300" height="300" viewBox="0 0 682.66669 682.66669" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs"><g width="100%" height="100%" transform="matrix(1,0,0,1,0,0)"><defs id="defs5350">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5360">
+      <path d="M 0,512 H 512 V 0 H 0 Z" id="path5358" fill="#ee1e27" fill-opacity="1" data-original-color="#000000ff" stroke="none" stroke-opacity="1"/>
+    </clipPath>
+  </defs><mask id="custom"><rect id="bg" x="0" y="0" width="100%" height="100%" fill="white"/><g transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)"><path transform="matrix(1,0,0,1,125.9141,340.4395)" d="m 0,0 c 0,-3.551 -2.878,-6.429 -6.429,-6.429 -3.55,0 -6.428,2.878 -6.428,6.429 0,3.55 2.878,6.429 6.428,6.429 C -2.878,6.429 0,3.55 0,0" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path5424"/><path transform="matrix(1,0,0,1,150.457,340.4395)" d="m 0,0 c 0,-3.551 -2.878,-6.429 -6.429,-6.429 -3.55,0 -6.427,2.878 -6.427,6.429 0,3.55 2.877,6.429 6.427,6.429 C -2.878,6.429 0,3.55 0,0" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path5428"/></g></mask><g mask="url(#custom)"><g id="g5352" transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)">
+    <g id="g5354">
+      <g id="g5356" clip-path="url(#clipPath5360)">
+        <g id="g5362" transform="translate(504.5,384.25)">
+          <path d="M 0,0 V -266.75 H -96.03" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5364" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5366" transform="translate(7.5,192.333)">
+          <path d="m 0,0 v 312.167 h 497 v -88.5" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5368" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5370" transform="translate(104.5801,117.5)">
+          <path d="M 0,0 H -97.08 V 42.5" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5372" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5374" transform="translate(504.5,424.5)">
+          <path d="M 0,0 H -497" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5376" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5378" transform="translate(68.5,465)">
+          <path d="m 0,0 c 0,-8.284 -6.716,-15 -15,-15 -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 C -6.716,15 0,8.284 0,0 Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5380" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5382" transform="translate(128.5,465)">
+          <path d="m 0,0 c 0,-8.284 -6.716,-15 -15,-15 -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 C -6.716,15 0,8.284 0,0 Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5384" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5386" transform="translate(188.5,465)">
+          <path d="m 0,0 c 0,-8.284 -6.716,-15 -15,-15 -8.284,0 -15,6.716 -15,15 0,8.284 6.716,15 15,15 C -6.716,15 0,8.284 0,0 Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5388" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5390" transform="translate(293.9131,279.0742)">
+          <path d="M 0,0 H 172" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5392" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5394" transform="translate(293.9131,321.417)">
+          <path d="M 0,0 H 86" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5396" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5398" transform="translate(293.9131,243.2451)">
+          <path d="M 0,0 H 172" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5400" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5402" transform="translate(293.9131,207.417)">
+          <path d="M 0,0 H 172" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5404" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5406" transform="translate(203.21,120)">
+          <path d="m 0,0 h -85.52 c -19.709,0 -35.69,-16.09 -35.69,-35.93 0,-4.07 3.28,-7.37 7.32,-7.37 H 10.021 c 17.959,0 35.629,-4.59 51.339,-13.35 7.86,-4.38 16.21,-7.72 24.83,-9.96 8.62,-2.24 17.53,-3.39 26.51,-3.39 h 5.42" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5408" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5410" transform="translate(178.9004,327.5586)">
+          <path d="m 0,0 c 0,-26.037 -21.107,-47.144 -47.144,-47.144 -26.036,0 -47.142,21.107 -47.142,47.144 0,26.036 21.106,47.143 47.142,47.143 C -21.107,47.143 0,26.036 0,0 Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5412" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5414" transform="translate(178.1475,182.7012)">
+          <path d="m 0,0 h -92.78 c -14.145,0 -25.611,11.466 -25.611,25.609 v 0.105 c 0,39.765 32.236,72 72,72 39.765,0 72,-32.235 72,-72 V 25.609 C 25.609,11.466 14.144,0 0,0 Z" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5416" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5418" transform="translate(110.3984,313.3604)">
+          <path d="M 0,0 C 0,0 9.731,-5.357 21.358,-5.357 32.985,-5.357 42.718,0 42.718,0" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5420" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5422" transform="translate(125.9141,340.4395)">
+          <path d="m 0,0 c 0,-3.551 -2.878,-6.429 -6.429,-6.429 -3.55,0 -6.428,2.878 -6.428,6.429 0,3.55 2.878,6.429 6.428,6.429 C -2.878,6.429 0,3.55 0,0" style="fill-rule: nonzero;" id="path5424" fill="#ee1e27" fill-opacity="1" data-original-color="#000000ff" stroke="none" stroke-opacity="1"/>
+        </g>
+        <g id="g5426" transform="translate(150.457,340.4395)">
+          <path d="m 0,0 c 0,-3.551 -2.878,-6.429 -6.429,-6.429 -3.55,0 -6.427,2.878 -6.427,6.429 0,3.55 2.877,6.429 6.427,6.429 C -2.878,6.429 0,3.55 0,0" style="fill-rule: nonzero;" id="path5428" fill="#ee1e27" fill-opacity="1" data-original-color="#000000ff" stroke="none" stroke-opacity="1"/>
+        </g>
+        <g id="g5430" transform="translate(256,424.5)">
+          <path d="M 0,0 V -287.47" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5432" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5434" transform="translate(431.1396,70.6396)">
+          <path d="m 0,0 c -1.77,25.74 -16.449,66.391 -91.62,66.391 h -110.09 c -11.689,0 -21.75,-6.991 -26.22,-17.031 -1.599,-3.57 -2.49,-7.519 -2.49,-11.679 0,-1.481 0.59,-2.821 1.54,-3.811 0.96,-0.99 2.29,-1.609 3.771,-1.649 17.219,-0.471 71.29,-2.641 85.939,-11.66 4.04,-2.481 8.691,-6.01 13.71,-9.97" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5436" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+        <g id="g5438" transform="translate(416.333,7.5)">
+          <path d="m 0,0 h -71.863 l -23.14,42.5 108.57,20.41 1.241,0.231 L 27.337,65.5 66.397,0 h -34.73" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: none;" id="path5440" fill="none" fill-opacity="1" stroke="#ee1e27" stroke-opacity="1" data-original-stroke-color="#000000ff" stroke-width="15" data-original-stroke-width="15"/>
+        </g>
+      </g>
+    </g>
+  </g></g></g></svg>

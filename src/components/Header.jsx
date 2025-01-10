@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`fixed w-full left-0 top-0 z-40 transition-all duration-300 border-b shadow-md ${
+      className={`fixed w-full left-0 top-0 z-40 transition-all duration-300  ${
         isScrolled ? 'bg-white shadow-lg border-white' : 'bg-mainclr  border-gray-700'
       }`}
     >
@@ -33,8 +33,8 @@ const Header = () => {
           <li>Blog</li>
           <li>Contact</li>
         </ul>
-        <button className={`${!isScrolled ? "hover:bg-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr" : "border-black hover:bg-mainhvr hover:border-mainhvr hover:text-white duration-150"} rounded-full px-5 border md:px-10 py-2 md:py-3 font-medium`}>
-          <Link>Let's Talk</Link>
+        <button className={`${!isScrolled ? "hover:bg-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr" : "border-black hover:bg-mainhvr hover:border-mainhvr hover:text-white duration-150"} rounded-xl px-5 border text-sm xl:text-base py-2 font-medium`}>
+          <Link>Apply now</Link>
         </button>
       </div>
     </nav>
