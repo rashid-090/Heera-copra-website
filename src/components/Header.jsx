@@ -23,7 +23,7 @@ const Header = () => {
       <div className="w-11/12 xl:w-10/12 mx-auto py-1 xl:py-2 flex items-center justify-between">
         <img
           className="h-16 w-32 object-contain"
-          src={isScrolled ? Logoblack : Logoblack}
+          src={isScrolled ? Logoblack : Logowhite}
           alt="Logo"
         />
         <ul className={`hidden lg:flex gap-10 text-sm !uppercase ${!isScrolled ? "text-white " : "text-black"} capitalize`}>
@@ -33,7 +33,7 @@ const Header = () => {
           <li>Blog</li>
           <li>Contact</li>
         </ul>
-        <button className={`${!isScrolled ? "bg-mainhvr border-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr" : "border-black hover:bg-mainhvr hover:border-mainhvr hover:text-white duration-150"} rounded-xl px-5 border text-sm xl:text-base py-2 `}>
+        <button className={`${!isScrolled ? "bg-mainhvr border-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr" : "bg-mainhvr border-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr"} rounded-xl px-5 border text-sm xl:text-base py-2 `}>
           <Link>Apply now</Link>
         </button>
       </div>
