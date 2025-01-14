@@ -58,7 +58,7 @@ const Footer = () => {
         <div className='w-11/12 xl:w-10/12 mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 py-10 border-t'>
           <div className='flex flex-col gap-3'>
             <img className='h-16 w-32 xl:h-24 xl:w-44 object-contain' src={Logoblack} alt="" />
-            <p className='text-gray-600'>Heera Corporate, we know what it’s like<br/> to have a frequent travel team on board. </p>
+            <p className='text-gray-600 text-sm xl:text-base'>Heera Corporate, we know what it’s like<br/> to have a frequent travel team on board. </p>
             <div className='flex gap-5 text-2xl mt-3'>
                 {socailsLink?.map((soc,i)=>(
                   <a className='hover:-translate-y-1 duration-200 hover:text-mainhvr' href={soc.url} key={i} target='_blank'>{soc.icon}</a>
