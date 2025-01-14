@@ -33,7 +33,7 @@ const Home = () => {
             </div>
             <div className='flex flex-col gap-3'>
                 <p className='text-mainhvr  tracking-widest'>ABOUT US</p>
-                <h2 className='text-3xl xl:text-4xl font-medium capitalize'>Making corporate global mobility simple, fast, and reliable</h2>
+                <h2 className='text-2xl sm:text-3xl xl:text-4xl font-medium capitalize'>Making corporate global mobility simple, fast, and reliable</h2>
                 <p className='text-gray-600 text-base text-justify'>At Heera Corporate, we know what it’s like to have a frequent travel team on board. Boasting an international network of companies, we ensure a flawless Dubai Business visa processing for businesses of all sizes to smoothly transition and relocate personal to their global branches.</p>
                 <p className='text-gray-600 text-base text-justify'>Our experts handle the complexities of requirements of your Business visa from Dubai, so that you can focus on what’s important in growing your business worldwide.</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-3'>
@@ -63,7 +63,7 @@ const Home = () => {
         <div className='w-11/12 xl:w-10/12 mx-auto py-10 xl:py-20 grid grid-cols-1 gap-10 gap-x-10'>
             <div className='flex flex-col  gap-3 '>
                 <p className=' tracking-widest'>WHY CHOOSE US</p>
-                <h2 className='text-3xl xl:text-4xl font-medium capitalize'>Experience the Heera Corporate<br/> difference with stress-free Business visa from Dubai.</h2>
+                <h2 className='text-2xl sm:text-3xl xl:text-4xl font-medium capitalize'>Experience the Heera Corporate<br className='hidden md:block'/> difference with stress-free Business visa from Dubai.</h2>
                 <div className='hidden md:grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 md:gap-5 mt-5'>
                     <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3'>
                         <img className='h-10 w-10 object-cover' src={pricing} alt="" /> 
@@ -171,7 +171,7 @@ const Home = () => {
     <section className=''>
         <div className='w-11/12 xl:w-10/12 mx-auto py-10 xl:py-20 grid grid-cols-1 xl:grid-cols-2 gap-5 gap-x-20'>
            <div className='h-full flex flex-col gap-3 justify-center'>
-                <h2 className='text-3xl xl:text-4xl font-medium capitalize'>Frequently Asked<br/> Questions</h2>
+                <h2 className='text-2xl sm:text-3xl xl:text-4xl font-medium capitalize'>Frequently Asked<br/> Questions</h2>
                 <p className='text-gray-600 text-sm md:text-base'>Answering popular queries to resolve and give you a peace of mind regarding Business visa services in Dubai.</p>
            </div>
             <div className=''>
@@ -202,11 +202,11 @@ const Home = () => {
                         <input className='focus:border-mainhvr rounded-xl border border-gray-300 w-full p-2 py-3' type="email"  placeholder='Email'/>
                     </div>
                     <textarea className='focus:border-mainhvr rounded-xl  border border-gray-300 w-full p-2' rows="5" placeholder='Message'></textarea>
-                    <button className='bg-mainhvr text-white h-10 rounded-xl capitalize hover:bg-red-700 duration-150 w-full md:w-fit px-16' type='submit'>send</button>
+                    <button className='bg-mainhvr text-white h-12 xl:h-10 rounded-xl capitalize hover:bg-red-700 duration-150 w-full md:w-fit px-16' type='submit'>send</button>
                 </form>
             </div>
             <div className='basis-1/2  flex flex-col gap-3 justify-center'>
-                <h2 className='text-3xl xl:text-4xl font-medium capitalize'>get your free<br/> consultation now</h2>
+                <h2 className='text-2xl sm:text-3xl xl:text-4xl font-medium capitalize'>get your free<br/> consultation now</h2>
                 <p className='text-gray-600 text-sm md:text-base'>Fill out the form below, and our team will promptly<br/> get in touch with you.</p>
             </div>
         </div>
