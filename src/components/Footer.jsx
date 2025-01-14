@@ -1,8 +1,9 @@
 import React from 'react';
 import {Logoblack} from '../assets';
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaYoutube, FaYoutubeSquare } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdLocalPhone } from "react-icons/md";
@@ -10,24 +11,21 @@ import { Link } from 'react-router-dom';
 
 const socailsLink=[
   {
-    icon:<FaFacebook/>,
-    url:`#`
+    icon:<FaYoutubeSquare/>,
+    url:`https://www.youtube.com/@ztartvisa`
   },
+
   {
-    icon:<FaWhatsapp/>,
-    url:`#`
-  },
-  {
-    icon:<FaTwitter/>,
-    url:`#`
+    icon:<FaXTwitter/>,
+    url:`https://x.com/ztartvisa/status/1772161296835936545`
   },
   {
     icon:<FaLinkedin/>,
-    url:`#`
+    url:`https://www.linkedin.com/company/ztartvisa/?originalSubdomain=ae`
   },
   {
     icon:<FaInstagram/>,
-    url:`#`
+    url:`https://www.instagram.com/ztartvisa`
   },
 ]
 
@@ -79,14 +77,18 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium'>Get in Touch</p>
                <div>
-                <div className='flex gap-3 items-center mt-2 xl:mt-5 '>
+                <p className='text-sm mt-2 xl:mt-5 mb-2'>Al Reem Tower, FAB Building -<br/>
+                  Office # 305, 3rd Floor -<br/>
+                  Corniche St - Al Majaz 1 - Al<br/>
+                  Majaz - Sharjah</p>
+                <div className='flex gap-3 items-center '>
+                      <MdLocalPhone/>
+                      <a href='tel:04 528 2118'>04 528 2118</a>
+                  </div>
+                {/* <div className='flex gap-3 items-center  '>
                       <MdLocalPhone/>
                       <a>+91 000 000 0000</a>
-                  </div>
-                <div className='flex gap-3 items-center  '>
-                      <MdLocalPhone/>
-                      <a>+91 000 000 0000</a>
-                  </div>
+                  </div> */}
                </div>
             </div>
           </div>
