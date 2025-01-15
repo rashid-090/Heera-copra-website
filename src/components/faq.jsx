@@ -42,7 +42,7 @@ const FAQAccordion = () => {
             onClick={() => toggleFAQ(index)}
             className="w-full flex justify-between items-center pb-4 text-left  font-medium"
           >
-            <span className="text-base  text-gray-600">{faq.question}</span>
+            <span className="text-sm md:text-base  text-gray-600">{faq.question}</span>
             <div
               className={`transform transition-transform duration-300 ${
                 activeIndex === index ? "rotate-180" : "rotate-0"
@@ -56,7 +56,7 @@ const FAQAccordion = () => {
               activeIndex === index ? "max-h-screen" : "max-h-0"
             }`}
           >
-            <div className="pb-4 text-gray-600 text-sm">
+            <div className="pb-4 text-gray-600 text-xs md:text-sm">
               {faq.answer}
             </div>
           </div>

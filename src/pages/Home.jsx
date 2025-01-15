@@ -20,7 +20,7 @@ const Home = () => {
         <div className='w-11/12 xl:w-10/12 mx-auto pt-40 py-10  h-full z-10 relative grid grid-cols-1 gap-10 gap-x-10'>
            <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5 xl:pt-14 xl:w-[60%]'>
                 <h1 className='text-3xl xl:text-5xl font-bold xl:font-medium capitalize'>Business Visa from<br/> Dubai made simple</h1>
-                <p className='xl:pr-32 text-base tracking-tight xl:text-justify'>Leveraging a global network of expertise, we ensure effortless relocations worldwide for thousands of corporations by simplifying your Business visa from Dubai processes for employees both individually and as a team.</p>
+                <p className='xl:pr-32 text-sm md:text-base font-light md:font-normal tracking-tight xl:text-justify'>Leveraging a global network of expertise, we ensure effortless relocations worldwide for thousands of corporations by simplifying your Business visa from Dubai processes for employees both individually and as a team.</p>
                 <button className='border border-mainhvr text-white bg-mainhvr  duration-150 w-fit rounded-xl hover:text-white px-5 py-2 font-medium'>Get in Touch</button>
            </div>
        
@@ -34,8 +34,8 @@ const Home = () => {
             <div className='flex flex-col gap-3'>
                 <p className='text-mainhvr  tracking-widest'>ABOUT US</p>
                 <h2 className='text-2xl sm:text-3xl xl:text-4xl font-medium capitalize'>Making corporate global mobility simple, fast, and reliable</h2>
-                <p className='text-gray-600 text-base text-justify'>At Heera Corporate, we know what it’s like to have a frequent travel team on board. Boasting an international network of companies, we ensure a flawless Dubai Business visa processing for businesses of all sizes to smoothly transition and relocate personal to their global branches.</p>
-                <p className='text-gray-600 text-base text-justify'>Our experts handle the complexities of requirements of your Business visa from Dubai, so that you can focus on what’s important in growing your business worldwide.</p>
+                <p className='text-gray-600 text-sm md:text-base  text-justify'>At Heera Corporate, we know what it’s like to have a frequent travel team on board. Boasting an international network of companies, we ensure a flawless Dubai Business visa processing for businesses of all sizes to smoothly transition and relocate personal to their global branches.</p>
+                <p className='text-gray-600 text-sm md:text-base  text-justify'>Our experts handle the complexities of requirements of your Business visa from Dubai, so that you can focus on what’s important in growing your business worldwide.</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-3'>
                     <div className='flex gap-2 items-start'>
                         <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
@@ -184,7 +184,7 @@ const Home = () => {
         <img className='absolute -translate-y-[50%] top-[50%] left-0 z-0 h-80 opacity-20' src={LogoFav} alt="" />
         <div className='w-11/12 z-10 relative xl:w-10/12 mx-auto py-10 xl:py-20 flex flex-col gap-3 justify-center items-center text-center'>
                 <h2 className='text-4xl xl:text-7xl font-medium capitalize'>Experience the Heera Corporate Difference.</h2>
-                <p className='xl:w-[60%]'>Ready to simplify your global mobility? Contact Heera Corporate today for a free consultation. Our team of experts is available to answer your questions and guide you through the process of obtaining a Business Visa from Dubai.</p>
+                <p className='xl:w-[60%] text-sm md:text-base'>Ready to simplify your global mobility? Contact Heera Corporate today for a free consultation. Our team of experts is available to answer your questions and guide you through the process of obtaining a Business Visa from Dubai.</p>
                 <button className='mt-5 border border-white  hover:bg-white  duration-150 w-fit hover:text-mainhvr px-5 rounded-xl py-2  font-medium capitalize'>apply visa now</button>
 
         </div>
