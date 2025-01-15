@@ -19,7 +19,7 @@ const Home = () => {
         <div className='absolute bg-[#00000091] w-full h-full z-0'></div>
         <div className='w-11/12 xl:w-10/12 mx-auto pt-40 py-10  h-full z-10 relative grid grid-cols-1 gap-10 gap-x-10'>
            <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5 xl:pt-14 xl:w-[60%]'>
-                <h1 className='text-3xl xl:text-5xl font-bold xl:font-medium capitalize'>Business Visa from<br/> Dubai made simple</h1>
+                <h1 className='text-3xl xl:text-5xl font-semibold xl:font-medium capitalize'>Business Visa from<br/> Dubai made simple</h1>
                 <p className='xl:pr-32 text-sm md:text-base font-light md:font-normal tracking-tight xl:text-justify'>Leveraging a global network of expertise, we ensure effortless relocations worldwide for thousands of corporations by simplifying your Business visa from Dubai processes for employees both individually and as a team.</p>
                 <button className='border border-mainhvr text-white bg-mainhvr  duration-150 w-fit rounded-xl hover:text-white px-5 py-2 font-medium'>Get in Touch</button>
            </div>
