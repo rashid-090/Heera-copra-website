@@ -38,20 +38,20 @@ const Home = () => {
                 <p className='text-gray-600 text-sm md:text-base  text-justify'>Our experts handle the complexities of requirements of your Business visa from Dubai, so that you can focus on what’s important in growing your business worldwide.</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-3'>
                     <div className='flex gap-2 items-start'>
-                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
-                        <p>Assisted visa applications</p>
+                        <div><MdOutlineVerified className='text-2xl md:text-3xl text-mainhvr'/></div>
+                        <p className='text-sm md:text-base'>Assisted visa applications</p>
                     </div>
                     <div className='flex gap-2 items-start'>
-                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
-                        <p>Personalized support</p>
+                        <div><MdOutlineVerified className='text-2xl md:text-3xl text-mainhvr'/></div>
+                        <p className='text-sm md:text-base'>Personalized support</p>
                     </div>
                     <div className='flex gap-2 items-start'>
-                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
-                        <p>Streamlined work permit processing</p>
+                        <div><MdOutlineVerified className='text-2xl md:text-3xl text-mainhvr'/></div>
+                        <p className='text-sm md:text-base'>Streamlined work permit processing</p>
                     </div>
                     <div className='flex gap-2 items-start'>
-                        <div><MdOutlineVerified className='text-3xl text-mainhvr'/></div>
-                        <p>Automated and timely approach</p>
+                        <div><MdOutlineVerified className='text-2xl md:text-3xl text-mainhvr'/></div>
+                        <p className='text-sm md:text-base'>Automated and timely approach</p>
                     </div>
                 </div>
                 <button className='mt-5 border border-black hover:border-mainhvr text-black hover:bg-mainhvr  duration-150 w-fit hover:text-white px-5 rounded-xl py-2  font-medium'>Learn more</button>
@@ -109,16 +109,16 @@ const Home = () => {
                     </div>
                    
                 </div>
-                <div className='flex flex-col gap-5 md:hidden'>
-                    <Marquee>
-                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-5'>
+                <div className='flex flex-col gap-3 md:hidden'>
+                    <Marquee pauseOnHover>
+                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-3'>
                         <img className='h-10 w-10 object-cover' src={pricing} alt="" /> 
                         <div>
                             <p className='text-sm xl:text-lg font-medium '>Upfront pricing</p>
                             <p className='text-xs md:text-sm'> Flat rate transparency with no hidden charges.</p>
                         </div>
                     </div>
-                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-5'>
+                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-3'>
                         <img className='h-10 w-10 object-cover' src={portal} alt="" />
                         <div>
                             <p className='text-sm xl:text-lg font-medium '> User friendly portal</p>
@@ -127,16 +127,16 @@ const Home = () => {
                     </div>
                    
                     </Marquee>
-                    <Marquee direction='right'>
+                    <Marquee pauseOnHover direction='right'>
                  
-                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-5'>
+                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-3'>
                         <img className='h-10 w-10 object-cover' src={experts} alt="" />
                         <div>
                             <p className='text-sm xl:text-lg font-medium '> Personalized visa experts</p>
                             <p className='text-xs md:text-sm'> Dedicated end-to-end support with real-time status updates.</p>
                         </div>
                     </div>
-                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-5'>
+                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-3'>
                         <img className='h-10 w-10 object-cover' src={Prompt} alt="" />
                        <div>
                             <p className='text-sm xl:text-lg font-medium '> Prompt processing</p>
@@ -145,16 +145,16 @@ const Home = () => {
                     </div>
                     
                     </Marquee>
-                    <Marquee>
+                    <Marquee pauseOnHover>
                    
-                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-5'>
+                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-3'>
                         <img className='h-10 w-10 object-cover' src={visaexpertise} alt="" />
                        <div>
                              <p className='text-sm xl:text-lg font-medium '> Proven visa expertise</p>
-                            <p className=''text-xs md:text-sm> Navigating complex visa processes with ease.</p>
+                            <p className='text-xs md:text-sm'> Navigating complex visa processes with ease.</p>
                        </div>
                     </div>
-                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-5'>
+                    <div className='bg-white text-black p-5 rounded-2xl shadow-lg duration-150 hover:shadow-2xl flex items-center gap-3 mr-3'>
                         <img className='h-10 w-10 object-cover' src={billingsystem} alt="" />
                         <div>
                             <p className='text-sm xl:text-lg font-medium '> Unified billing system</p>
@@ -194,20 +194,20 @@ const Home = () => {
             <div className='basis-1/2'>
                 <form className='flex flex-col gap-3 text-sm'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
-                        <input className='focus:border-mainhvr rounded-xl border border-gray-300 w-full p-2 py-3' type="text"  placeholder='Full Name'/>
-                        <input className='focus:border-mainhvr rounded-xl border border-gray-300 w-full p-2 py-3' type="text"  placeholder='Company'/>
+                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3' type="text"  placeholder='Full Name'/>
+                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3' type="text"  placeholder='Company'/>
                     </div>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
-                        <input className='focus:border-mainhvr rounded-xl border border-gray-300 w-full p-2 py-3 ' type="number"  placeholder='Mobile' inputMode='numeric'/>
-                        <input className='focus:border-mainhvr rounded-xl border border-gray-300 w-full p-2 py-3' type="email"  placeholder='Email'/>
+                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3 ' type="number"  placeholder='Mobile' inputMode='numeric'/>
+                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3' type="email"  placeholder='Email'/>
                     </div>
-                    <textarea className='focus:border-mainhvr rounded-xl  border border-gray-300 w-full p-2' rows="5" placeholder='Message'></textarea>
-                    <button className='bg-mainhvr text-white h-12 xl:h-10 rounded-xl capitalize hover:bg-red-700 duration-150 w-full md:w-fit px-16' type='submit'>send</button>
+                    <textarea className='focus:border-mainhvr border-b border-gray-300 w-full p-2 pl-0' rows="5" placeholder='Message'></textarea>
+                    <button className='bg-mainhvr text-white h-12 xl:h-10 rounded-xl capitalize hover:bg-red-700 duration-150 w-fit px-16' type='submit'>send</button>
                 </form>
             </div>
             <div className='basis-1/2  flex flex-col gap-3 justify-center'>
                 <h2 className='text-2xl sm:text-3xl xl:text-4xl font-medium capitalize'>get your free<br/> consultation now</h2>
-                <p className='text-gray-600 text-sm md:text-base'>Fill out the form below, and our team will promptly<br/> get in touch with you.</p>
+                <p className='text-gray-600 text-sm md:text-base'>Fill out the form below, and our team will promptly<br className='hidden md:block'/> get in touch with you.</p>
             </div>
         </div>
     </section>
