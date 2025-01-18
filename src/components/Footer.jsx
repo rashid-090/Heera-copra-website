@@ -77,10 +77,7 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium'>Get in Touch</p>
                <div>
-                <p className='text-sm mt-2 xl:mt-5 mb-2'>Al Reem Tower, FAB Building -<br/>
-                  Office # 305, 3rd Floor -<br/>
-                  Corniche St - Al Majaz 1 - Al<br/>
-                  Majaz - Sharjah</p>
+                <p className='text-sm mt-2 xl:mt-5 mb-2'>Office, 305, Al Reem Tower,<br/> Al Majaz 1, Sharjah,<br/> United Arab Emirates.</p>
                 <div className='flex gap-3 items-center '>
                       <MdLocalPhone/>
                       <a href='tel:04 528 2118'>04 528 2118</a>

@@ -3,25 +3,26 @@ import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 const faqData = [
   {
-    question:`How quickly can you process Dubai Business visa applications?`,
-    answer:`We prioritize fast, efficient processing, ensuring your employees can travel as scheduled. Regardless of country specific Business visa from Dubai regulations and processing time, our team backs your applications with punctual delivery`
+    question:`What types of visa services do you offer?`,
+    answer:`We offer Business, Meeting, Industrial Visit, and Tourist visas, tailored specifically for corporate professionals.`
   },
   {
-    question:`What if there are complications with the application of Business visa from Dubai?`,
-    answer:`Our team is stationed 24/7 for your personalized Dubai Business visa processing time comfort. Any enquiries, delays, challenges or needs are promptly addressed to make your journey hassle-free`
+    question:`How long does the visa processing take?`,
+    answer:`Processing times vary depending on the type of visa, but we prioritize fast and efficient processing to ensure timely approvals.`
   },
   {
-    question:`Whom can I contact in terms of assistance?`,
-    answer:`You will be assigned a dedicated Dubai Business visa specialist account manager who provides personalized support and regular updates regarding renewals, documentation and paperwork`
+    question:`Are there any hidden charges in your pricing?`,
+    answer:`No, we provide upfront pricing with a flat rate, ensuring full transparency and no hidden fees throughout the process.`
   },
   {
-    question:`What are the steps that follow in processing Business visa from Dubai for employees?`,
-    answer:`From gathering required documentation, submitting visa applications to following up with the appropriate authorities could never be your concern with our Business visa services in Dubai as your support. Leave the entire responsibility to us.`
+    question:`Can you handle urgent visa appointments?`,
+    answer:`Yes, we specialize in urgent visa appointment solutions, providing fast-track services for time-sensitive needs.`
   },
   {
-    question:`Is application processing of Business visa from Dubai to multiple countries in your service portfolio?`,
-    answer:`Absolutely, whether it’s one destination or several, our team of experts guides your Dubai Business visa processing journey from documentation to attestation.`
-  },
+    question:`Do you provide support throughout the entire visa process?`,
+    answer:`Yes! Our dedicated visa experts offer end-to-end support, keeping you updated with real-time status updates for a hassle-free experience.`
+  }
+  
 ];
 
 const FAQAccordion = () => {
