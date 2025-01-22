@@ -1,6 +1,6 @@
 import React from 'react';
 import {bannerImg,heeraAbt,heeraWhy,blobshape,LogoFav} from '../assets';
-import {Faq} from '../components'
+import {Faq,Form} from '../components'
 import { MdOutlineVerified } from "react-icons/md";
 import { VscDebugBreakpointLog } from "react-icons/vsc";
 import Marquee from "react-fast-marquee";
@@ -21,7 +21,7 @@ const Home = () => {
            <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5 xl:pt-14 xl:w-[65%]'>
                 <h1 className='text-3xl xl:text-6xl font-semibold xl:font-medium capitalize'>Global Visa Simplified<br/> for Professionals.</h1>
                 <p className='xl:pr-32 text-sm 2xl:text-base font-light md:font-normal tracking-tight xl:text-justify'>Simplify visa processing with our streamlined services. We save your team time and effort, making global travel hassle-free so you can focus on what matters most.</p>
-                <button className='border border-mainhvr text-white bg-mainhvr  duration-150 w-fit rounded-xl hover:text-white px-5 py-2 font-medium'>Get in Touch</button>
+                <button className='border border-mainhvr text-white bg-mainhvr  duration-150 w-fit rounded-xl hover:text-white px-5 py-2 font-medium'><a href="#cform">Get in Touch</a></button>
            </div>
        
         </div>
@@ -53,7 +53,7 @@ const Home = () => {
                         <p className='text-sm md:text-base'>Reliable Solutions</p>
                     </div>
                 </div>
-                <button className='mt-3 border border-black hover:border-mainhvr text-black hover:bg-mainhvr  duration-150 w-fit hover:text-white px-5 rounded-xl py-2  font-medium'>Learn more</button>
+                <button className='mt-3 border border-black hover:border-mainhvr text-black hover:bg-mainhvr  duration-150 w-fit hover:text-white px-5 rounded-xl py-2  font-medium'><a href="#cform">Learn more</a></button>
 
             </div>
         </div>
@@ -184,31 +184,13 @@ const Home = () => {
         <div className='w-11/12 z-10 relative xl:w-10/12 mx-auto py-10 xl:py-20 flex flex-col gap-3 justify-center items-center text-center'>
                 <h2 className='text-4xl xl:text-7xl font-medium capitalize'>Experience the Heera Corporate Difference</h2>
                 <p className='xl:w-[65%] text-sm md:text-base'>Heera Corporates provides fast, tailored visa solutions designed to meet your business needs. Whether it's securing urgent appointments or ensuring smooth processing, we take care of everything to keep your professionals on track and your business moving forward without the hassle or delays.</p>
-                <button className='mt-5 border border-white  hover:bg-white  duration-150 w-fit hover:text-mainhvr px-5 rounded-xl py-2  font-medium capitalize'>apply visa now</button>
+                <button className='mt-5 border border-white  hover:bg-white  duration-150 w-fit hover:text-mainhvr px-5 rounded-xl py-2  font-medium capitalize'><a href="#cform">apply visa now</a></button>
 
         </div>
     </section>
-    <section>
-        <div className='w-11/12 xl:w-10/12 mx-auto py-10 xl:py-20 flex flex-col-reverse xl:flex-row-reverse gap-10 gap-x-10'>
-            <div className='basis-1/2'>
-                <form className='flex flex-col gap-3 text-sm'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
-                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3' type="text"  placeholder='Full Name'/>
-                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3' type="text"  placeholder='Company'/>
-                    </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
-                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3 ' type="number"  placeholder='Mobile' inputMode='numeric'/>
-                        <input className='focus:border-mainhvr  border-b border-gray-300 w-full p-2 pl-0 py-3' type="email"  placeholder='Email'/>
-                    </div>
-                    <textarea className='focus:border-mainhvr border-b border-gray-300 w-full p-2 pl-0' rows="5" placeholder='Message'></textarea>
-                    <button className='bg-mainhvr text-white h-12 xl:h-10 rounded-xl capitalize hover:bg-red-700 duration-150 w-fit px-16' type='submit'>send</button>
-                </form>
-            </div>
-            <div className='basis-1/2  flex flex-col gap-3 justify-center'>
-                <h2 className='text-xl sm:text-3xl font-medium capitalize'>get your free<br/> consultation now</h2>
-                <p className='text-gray-600 text-sm md:text-base'>Fill out the form below, and our team will promptly<br className='hidden md:block'/> get in touch with you.</p>
-            </div>
-        </div>
+    <section id='cform'>
+        <Form/>
+      
     </section>
     </>
   )

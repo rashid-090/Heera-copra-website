@@ -14,6 +14,7 @@ const Home = lazy(() => import("./pages/Home"));
 const Layout = () => {
   return(
     <div className="app 2xl:max-w-[2500px] mx-auto">
+       <ToastContainer position='bottom-right' theme='dark'/>
       <Header/>
       <ScrollToTop />
       <Outlet />

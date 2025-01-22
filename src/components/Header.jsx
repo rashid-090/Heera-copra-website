@@ -34,7 +34,7 @@ const Header = () => {
           <li>Contact</li>
         </ul>
         <button className={`${!isScrolled ? "bg-mainhvr border-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr" : "bg-mainhvr border-mainhvr  text-white hover:text-white duration-150 hover:border-mainhvr"} rounded-xl px-5 border text-sm xl:text-base py-2 `}>
-          <Link>Apply now</Link>
+          <a href='#cform'>Apply now</a>
         </button>
       </div>
     </nav>
