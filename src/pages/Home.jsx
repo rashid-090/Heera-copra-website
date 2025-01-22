@@ -18,9 +18,9 @@ const Home = () => {
     <section className='bg-home-bg bg-cover text-white xl:h-screen overflow-hidden relative' >
         <div className='absolute bg-[#00000091] w-full h-full z-0'></div>
         <div className='w-11/12 xl:w-10/12 mx-auto pt-40 py-10  h-full z-10 relative grid grid-cols-1 gap-10 gap-x-10'>
-           <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5 xl:pt-14 xl:w-[60%]'>
+           <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5 xl:pt-14 xl:w-[65%]'>
                 <h1 className='text-3xl xl:text-6xl font-semibold xl:font-medium capitalize'>Global Visa Simplified<br/> for Professionals.</h1>
-                <p className='xl:pr-32 text-sm  font-light md:font-normal tracking-tight xl:text-justify'>Visa processing can be time-consuming and stressful—we’re here to change that. Our streamlined services save your team valuable time and effort, making global travel hassle-free for professionals. Let us handle the hard work so you can focus on what matters most.</p>
+                <p className='xl:pr-32 text-sm 2xl:text-base font-light md:font-normal tracking-tight xl:text-justify'>Simplify visa processing with our streamlined services. We save your team time and effort, making global travel hassle-free so you can focus on what matters most.</p>
                 <button className='border border-mainhvr text-white bg-mainhvr  duration-150 w-fit rounded-xl hover:text-white px-5 py-2 font-medium'>Get in Touch</button>
            </div>
        
@@ -33,9 +33,8 @@ const Home = () => {
             </div>
             <div className='flex flex-col gap-3'>
                 <p className='text-mainhvr text-sm tracking-widest'>ABOUT US</p>
-                <h2 className='text-xl sm:text-2xl font-medium capitalize'>Heera Corporates offers easy and reliable visa solutions designed specifically for businesses and their professionals.</h2>
-                <p className='text-gray-600 text-sm   text-justify'>At Heera Corporates, we understand the challenges businesses face when managing visa requirements for their teams. That's why we focus on providing simple, fast, and dependable visa solutions tailored specifically for corporates. Our goal is to take the hassle out of the visa process, allowing businesses to stay focused on growth and success.</p>
-                <p className='text-gray-600 text-sm   text-justify'>With our expertise in global visa processing, we streamline the application and approval process for companies and their professionals. Whether you’re sending employees on business trips, assignments, or relocations, Heera Corporates ensures smooth and efficient travel arrangements every time. Let us manage the paperwork while you focus on your business goals.</p>
+                <h2 className='text-xl sm:text-2xl font-medium capitalize'>Heera Corporates offers reliable, easy visa solutions for businesses and professionals.</h2>
+                <p className='text-gray-600 text-sm   text-justify'>Heera Corporates takes the stress out of visa management for businesses. We offer fast, reliable, and simple visa solutions for business trips, assignments, and relocations. Our expert team handles all the paperwork and navigates the complex visa process, ensuring a smooth and hassle-free experience. With Heera Corporates, you can save time, reduce risk, and stay focused on achieving your business goals.</p>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-2'>
                     <div className='flex gap-2 items-start'>
                         <div><MdOutlineVerified className='text-2xl md:text-3xl text-mainhvr'/></div>
@@ -184,7 +183,7 @@ const Home = () => {
         <img className='absolute -translate-y-[50%] top-[50%] left-0 z-0 h-80 opacity-20' src={LogoFav} alt="" />
         <div className='w-11/12 z-10 relative xl:w-10/12 mx-auto py-10 xl:py-20 flex flex-col gap-3 justify-center items-center text-center'>
                 <h2 className='text-4xl xl:text-7xl font-medium capitalize'>Experience the Heera Corporate Difference</h2>
-                <p className='xl:w-[60%] text-sm md:text-base'>Imagine a visa service that understands your business needs and respects your time. At Heera Corporates, we’ve redefined the visa experience by offering tailored solutions with unmatched efficiency. Whether it’s securing urgent appointments or ensuring seamless processing, our focus is on delivering results that keep your professionals on track and your business moving forward. No hassles, no delays—just straightforward, hassle-free visa solutions.</p>
+                <p className='xl:w-[65%] text-sm md:text-base'>Heera Corporates provides fast, tailored visa solutions designed to meet your business needs. Whether it's securing urgent appointments or ensuring smooth processing, we take care of everything to keep your professionals on track and your business moving forward without the hassle or delays.</p>
                 <button className='mt-5 border border-white  hover:bg-white  duration-150 w-fit hover:text-mainhvr px-5 rounded-xl py-2  font-medium capitalize'>apply visa now</button>
 
         </div>
