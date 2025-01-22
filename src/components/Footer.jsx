@@ -90,9 +90,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='w-11/12 xl:w-10/12 mx-auto border-t text-xs md:text-sm flex flex-col md:flex-row justify-between items-center py-5'>
+        <div className='w-11/12 xl:w-10/12 mx-auto border-t text-xs md:text-sm flex flex-col md:flex-row justify-center items-center py-5'>
             <p>Copyright © 2025 Heera Corporate</p>
-            <a href='https://dostudio.co.in' target='_blank' className='hover:text-mainhvr'>Powered by DO Studio</a>
+            {/* <a href='https://dostudio.co.in' target='_blank' className='hover:text-mainhvr'>Powered by DO Studio</a> */}
         </div>
     </footer>
   )
