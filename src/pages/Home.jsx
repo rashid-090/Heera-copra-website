@@ -15,7 +15,7 @@ import billingsystem from '../assets/images/svg/Unified billing system.svg'
 const Home = () => {
   return (
     <>
-    <section className='bg-home-bg bg-cover text-white xl:h-screen overflow-hidden relative' >
+    <section className='bg-home-bg bg-cover bg-center text-white h-screen overflow-hidden relative' >
         <div className='absolute bg-[#00000091] w-full h-full z-0'></div>
         <div className='w-11/12 xl:w-10/12 mx-auto pt-40 py-10  h-full z-10 relative grid grid-cols-1 gap-10 gap-x-10'>
            <div className='h-full w-full flex flex-col justify-center gap-3 xl:gap-5 xl:pt-14 xl:w-[65%]'>
