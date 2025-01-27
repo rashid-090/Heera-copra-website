@@ -29,9 +29,9 @@ const Home = () => {
     <section className='bg-white text-black'>
         <div className='w-11/12 xl:w-10/12 mx-auto py-10 xl:py-20 grid grid-cols-1 xl:grid-cols-2 gap-10'>
             <div className='hidden md:block'>
-                <img className='object-cover h-full md:h-80 xl:h-full w-full' loading='lazy' src={heeraAbt} alt="" />
+                <img className='object-cover h-full md:h-80 xl:h-full w-full shadow-xl rounded-xl' loading='lazy' src={heeraAbt} alt="" />
             </div>
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col gap-2'>
                 <p className='text-mainhvr text-sm tracking-widest'>ABOUT US</p>
                 <h2 className='text-xl sm:text-2xl font-medium capitalize'>Heera Corporates offers reliable, easy visa solutions for businesses and professionals.</h2>
                 <p className='text-gray-600 text-sm   text-justify'>Heera Corporates takes the stress out of visa management for businesses. We offer fast, reliable, and simple visa solutions for business trips, assignments, and relocations. Our expert team handles all the paperwork and navigates the complex visa process, ensuring a smooth and hassle-free experience. With Heera Corporates, you can save time, reduce risk, and stay focused on achieving your business goals.</p>
